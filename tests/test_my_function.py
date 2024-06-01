@@ -1,7 +1,7 @@
 # tests/test_my_function.py
 
 import unittest
-from my_module.my_function.py import add
+from my_module.my_function import add
 
 class TestMyFunction(unittest.TestCase):
     
