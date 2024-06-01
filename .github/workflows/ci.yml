@@ -24,6 +24,3 @@ jobs:
       run: |
         python -m unittest discover -s tests -p 'test_*.py'
 
-    - name: Run integration tests
-      run: |
-        python -m unittest discover -s tests -p 'test_api.py'
